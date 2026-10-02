@@ -2,8 +2,8 @@
   "name": "جدول معلمي الكيمياء – ثانوية الإمام مالك",
   "short_name": "جدول الكيمياء",
   "description": "جدول حصص معلمي قسم الكيمياء بثانوية الإمام مالك",
-  "start_url": "/Chemistry-Class/index.html",
-  "scope": "/Chemistry-Class/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
@@ -23,18 +23,10 @@
       "purpose": "any"
     }
   ],
-  "screenshots": [
-    {
-      "src": "./icon.svg",
-      "sizes": "540x720",
-      "type": "image/svg+xml",
-      "form_factor": "narrow"
-    }
-  ],
   "shortcuts": [
     {
       "name": "جدول باقي المعلمين",
-      "url": "/Chemistry-Class/?tab=t",
+      "url": "./?tab=t",
       "icons": [
         {
           "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%230f766e' width='96' height='96'/><text x='48' y='50' font-size='50' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'>👥</text></svg>",
@@ -45,7 +37,7 @@
     },
     {
       "name": "جدول اليوم",
-      "url": "/Chemistry-Class/?tab=d",
+      "url": "./?tab=d",
       "icons": [
         {
           "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%230f766e' width='96' height='96'/><text x='48' y='50' font-size='50' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'>📅</text></svg>",
@@ -55,10 +47,11 @@
       ]
     }
   ],
-  "categories": ["productivity", "education"],
-  "share_target": {
-    "action": "/Chemistry-Class/",
-    "method": "POST",
-    "enctype": "application/x-www-form-urlencoded"
-  }
+  "categories": [
+    "productivity",
+    "education"
+  ],
+  "id": "./",
+  "lang": "ar",
+  "dir": "rtl"
 }
